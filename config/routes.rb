@@ -6,4 +6,7 @@ Rails.application.routes.draw do
 
   get 'projects/dashboard'
 
+
+  root 'projects#new'
+
 end
